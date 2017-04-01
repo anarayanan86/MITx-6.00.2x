@@ -25,7 +25,6 @@
 # space left, and none of the cows can fit in that space, so the first trip is [Jesse, Maybel].
 # For the second trip, the greedy algorithm first picks Maggie as the heaviest remaining cow, and then picks Callie as the last cow.
 # Since they will both fit, this makes the second trip [[Maggie], [Callie]].
-
 # The final result then is [["Jesse", "Maybel"], ["Maggie", "Callie"]].
 
 
