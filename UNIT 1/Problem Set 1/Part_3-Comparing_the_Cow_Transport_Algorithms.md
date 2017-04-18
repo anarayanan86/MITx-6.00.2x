@@ -23,18 +23,15 @@ print(end - start)
 
 #### Part 3-1
 2.0/2.0 points (graded)  
-Now that you have run your benchmarks, which algorithm runs faster?
-
+Now that you have run your benchmarks, which algorithm runs faster?  
 The Greedy Transport Algorithm correct
 
 #### Part 3-2
 2.0/2.0 points (graded)  
-Consider the properties of the GREEDY algorithm. Will it return the optimal solution?
-
+Consider the properties of the GREEDY algorithm. Will it return the optimal solution?  
 It could, but it depends on the data, not always. correct
 
 #### Part 3-3
 2.0/2.0 points (graded)  
-Consider the properties of the BRUTE FORCE algorithm. Will it return the optimal solution?
-
+Consider the properties of the BRUTE FORCE algorithm. Will it return the optimal solution?  
 Yes, all the time correct
