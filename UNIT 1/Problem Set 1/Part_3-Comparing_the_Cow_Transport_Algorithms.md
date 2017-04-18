@@ -1,6 +1,6 @@
 # Part 3: Compare the Algorithms
 
-POLL: ALGORITHM INTUITION
+POLL: ALGORITHM INTUITION  
 (ungraded) Before doing the task in this part, answer the following question to see your intuition for how the greedy and brute force algorithm run. In terms of time, which algorithm do you expect will run faster?
 
 RESULTS
