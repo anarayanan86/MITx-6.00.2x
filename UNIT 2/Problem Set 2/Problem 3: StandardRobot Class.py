@@ -155,3 +155,5 @@ class StandardRobot(Robot):
         else:
             self.setRobotPosition(next_position)            
             self.room.cleanTileAtPosition(next_position)
+
+# correctCorrect
