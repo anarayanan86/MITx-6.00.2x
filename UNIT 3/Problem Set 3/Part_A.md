@@ -12,17 +12,17 @@ Answer each question in reduced fraction form - eg 1/5 instead of 2/10.
 
 1. He catches the flu in September, October and November.
 
-  1/1000
-  correct  
+    1/1000
+    correct  
 2. He catches the flu in September and then again in November, but not in October.
 
-  9/1000
-  correct  
+    9/1000
+    correct  
 3. He catches the flu exactly once in the three months from September through November.
 
-  243/1000
-  correct  
+    243/1000
+    correct  
 4. He catches the flu in two or more of the three months from September through November.
 
-  7/250
-  correct  
+    7/250
+    correct
