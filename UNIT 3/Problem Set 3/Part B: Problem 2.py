@@ -100,3 +100,10 @@ def simulationWithoutDrug(numViruses, maxPop, maxBirthProb, clearProb, numTrials
     pylab.show()
     
 correctCorrect
+
+
+# Part B: Problem 2-2
+# 5.0/5.0 points (graded)
+# A good question to consider as you look at your plot is: about how long does it take before the population stops growing?
+
+# About 150 time-steps correct
