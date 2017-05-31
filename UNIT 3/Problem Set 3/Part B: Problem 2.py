@@ -99,7 +99,7 @@ def simulationWithoutDrug(numViruses, maxPop, maxBirthProb, clearProb, numTrials
     pylab.legend()
     pylab.show()
     
-correctCorrect
+# correctCorrect
 
 
 # Part B: Problem 2-2
