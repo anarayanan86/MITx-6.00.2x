@@ -45,7 +45,7 @@ def A():
 True correct
 
 ## Problem 1-5
-0/1 point (graded)
+0/1 point (graded)  
 Consider an undirected graph with non-negative weights that has an edge between each pair of nodes. The shortest distance between any two nodes is always the path that is the edge between the two nodes.
 
 True incorrect
