@@ -47,4 +47,4 @@ def greedySum(L, s):
     else:
         return 'no solution'
         
-correctCorrect
+# correctCorrect
