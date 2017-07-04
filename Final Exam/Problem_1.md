@@ -27,7 +27,7 @@ All of the above correct
 
 ## Problem 1-5
 0/1 point (graded)
-The following image plots the population of the US over time, along with a model fit to the data. This is an example of
+The following image plots the population of the US over time, along with a model fit to the data. This is an example of  
 ![](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/00c8cf45cd6bd900b25beefdf07dc4bb/asset-v1:MITx+6.00.2x_7+1T2017+type@asset+block/uscensus.png)
 
 Neither of the above incorrect
