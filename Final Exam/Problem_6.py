@@ -68,4 +68,4 @@ def find_combination(choices, total):
         minidx = max(enumerate(filter_set_less), key = lambda x:sum(x[1]))[1]
         return minidx
         
-correctCorrect
+# correctCorrect
