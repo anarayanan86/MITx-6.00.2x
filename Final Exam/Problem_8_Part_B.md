@@ -10,7 +10,7 @@ Bookmark this page
      coeff = polyfit(range(len(rabbitPopulationOverTime)), rabbitPopulationOverTime, 2)
 
      plot(polyval(coeff, range(len(rabbitPopulationOverTime))))
-     ```
+```
 
 Of course your variables and plotting commands may not look identical to the above code; the above code is shown just to give you an idea of what we mean.
 
