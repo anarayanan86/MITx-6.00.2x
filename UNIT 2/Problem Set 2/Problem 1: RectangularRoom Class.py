@@ -124,7 +124,7 @@ class RectangularRoom(object):
         returns: True if pos is in the room, False otherwise.
         """
         #raise NotImplementedError
-        if pos.x >= 0 and pos.x < self.width and pos.y >= 0 and pos.y < self.height:
+        if 0 <= pos.getX() < self.width and 0 <= pos.getY() < self.height:
             return True
         else:
             return False
