@@ -98,8 +98,8 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
             if (room.getNumCleanedTiles()/room.getNumTiles()) >= min_coverage:
                 results.append(num_steps)
                 #anim.done()
-            else:
-                continue
+                break
+            
     # return mean
     return sum(results)/len(results)
     
