@@ -141,19 +141,32 @@ class StandardRobot(Robot):
     direction; when it would hit a wall, it *instead* chooses a new direction
     randomly.
     """
+
+    def __init__(self, room, speed):
+        """
+        Initializes a Robot with the given speed in the specified room. The
+        robot initially has a random direction and a random position in the
+        room. The robot cleans the tile it is on.
+
+        room:  a RectangularRoom object.
+        speed: a float (speed > 0)
+        """
+        self.room = room
+        self.speed = speed
+        self.direction = random.randint(0,359)
+        self.position = room.getRandomPosition()
+        self.room.cleanTileAtPosition(self.getRobotPosition())
+        
     def updatePositionAndClean(self):
         """
-        Simulate the raise passage of a single time-step.
+        Simulate the passage of a single time-step.
 
         Move the robot to a new position and mark the tile it is on as having
         been cleaned.
         """
-        #raise NotImplementedError
-        next_position = self.getRobotPosition().getNewPosition(self.getRobotDirection(), self.speed)
-        if self.room.isPositionInRoom(next_position) == False:
-            self.setRobotDirection(random.randint(0, 359))
+        self.room.cleanTileAtPosition(self.getRobotPosition())
+        new_pos = self.getRobotPosition().getNewPosition(self.getRobotDirection(), self.speed)
+        if not self.room.isPositionInRoom(new_pos):
+            self.setRobotDirection(random.randint(0,359))
         else:
-            self.setRobotPosition(next_position)            
-            self.room.cleanTileAtPosition(next_position)
-
-# correctCorrect
+            self.setRobotPosition(new_pos)
