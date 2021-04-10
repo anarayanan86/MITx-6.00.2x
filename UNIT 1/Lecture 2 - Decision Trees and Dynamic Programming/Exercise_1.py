@@ -83,6 +83,6 @@ def buildItems():
                                       ('vase', 50, 2),
                                       ('book', 10, 1),
                                       ('computer', 200, 20))]
-          
+         
 def buildRandomItems(n):
     return [Item(str(i),10*random.randint(1,10),random.randint(1,10)) for i in range(n)]
