@@ -62,7 +62,7 @@ def greedy_cow_transport(cows, limit=10):
     while sum(cowsCopy.values()) > 0:
         ship = []
         total = 0
-        for cow, value in sortedCows:
+        for cow, value in sortedCows.items():
             if cowsCopy[cow] != 0 and value + total <= limit:
                 ship.append(cow)
                 total += value
